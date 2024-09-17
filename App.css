@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+  --fonts:"DM Sans", sans-serif;
+}
+
+body{
+  margin: 0;
+  font-family: var(--fonts);
+}
+
+h1,h2,h3,h4,p{
+  font-family: var(--fonts);
+}
+
+.Content{
+  margin: 45px 0;
+}
+
+.Content h1{
+  font-weight: 800;
+}
+
+.Content p{
+  color:#7e7c7c;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.MuiContainer-root{
+  padding: 0 !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.User {
+  color: #169cee;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html .Btn{
+  padding: 15px 20px;
+  background-color: #169cee;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 25px 0;
+  text-decoration: none;
+}
+
+.LoginBtn{
+  background-color: #169cee;
+  color: #FFFFFF;
+  border:none;
+  padding: 9px 20px;
+}
+
+.NavSec a{
+  font-family: var(--fonts);
+}
